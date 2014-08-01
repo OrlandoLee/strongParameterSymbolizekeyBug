@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First:</strong>
+  <%= @entry.first %>
+</p>
+
+<p>
+  <strong>Second:</strong>
+  <%= @entry.second %>
+</p>
+
+<p>
+  <strong>Third:</strong>
+  <%= @entry.third %>
+</p>
+
+<%= link_to 'Edit', edit_entry_path(@entry) %> |
+<%= link_to 'Back', entries_path %>
